@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ODIN RECIPES</title>
+
+        <style>
+            body {
+                background-color: antiquewhite;
+                overflow: hidden;
+            }
+
+            .container {
+                padding: 20px 20px;
+                text-align: center;
+            }
+
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 10px;
+            }
+
+            a {
+                text-decoration: none;
+               
+            }
+
+            .btn {
+                padding: 10px 10px;
+                margin: 0 10px;
+                background-color: burlywood;
+                color: black;
+                border-radius: 3px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            }
+
+            .gif {
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            }
+
+            .credits {
+                margin: 300px 1%;
+            }
+
+            #odin-icon {
+                padding: 3px 5px;
+                border-radius: 4px;
+                margin-right: 10px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 2px;
+            }
+
+            #git-icon {
+                padding: 3px 5px;
+                border-radius: 4px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1>Odin Recipes</h1>
+                <a class="btn" href="recipes/chocolateBananaShake.html">Protein Smoothie</a>
+                <a class="btn" href="recipes/knafeh.html">knafeh</a>
+                <a class="btn" href="recipes/frenchToast.html">French Toast</a>
+            </div>
+            <img class="gif" src="..\images\cook.gif" alt="cooking gif" width="250px" height="250px">
+        </div>
+
+        <div class="credits">
+            <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer"><img src="..\images\odin.png" alt="odin-website" width="18px" height="20px" id="odin-icon"></a>
+            <a href="https://github.com/m9z1" target="_blank" rel="noopener noreferrer"><img src="..\images\github.png" alt="github-profile" height="20px" id="git-icon"></a>
+        </div>
+    </body>
+</html>
